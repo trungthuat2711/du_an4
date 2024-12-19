@@ -7,5 +7,16 @@
 </head>
 <body>
     <h1>Nhánh main</h1>
+    <ol>
+        <li>Xem nhánh local: git branch.</li>
+        <li>Xem nhánh cả local và remote: git branch -a.</li>
+        <li>Copy toàn bộ code ở nhánh hiện tại sang nhánh mới, con trỏ vẫn ở nhánh hiện tại: git branch -c tên_nhánh_mới.</li>
+        <li>Copy toàn bộ code ở nhánh hiện tại sang nhánh mới, con trỏ sang nhánh mới: git checkout -b tên_nhánh_mới.</li>
+        <li>Để chuyển con trỏ sang 1 nhánh nào đó: git checkout tên_nhánh.</li>
+        <li>Push code từ nhánh con lên github: git push -u origin tên_nhánh.(từ lần 2 chỉ cần git push)</li>
+        <li>Xóa nhánh trên máy tính(local repo): git branch -d tên_nhánh.(lưu ý không xóa được nhánh đang đứng và nhánh vừa commit nhưng chưa push lên github)</li>
+        <li>Nếu nhánh có code chưa push sẽ ép xóa bằng: git branch -D tên_nhánh.</li>
+        <li>Xóa nhánh trên remote repo: git push -d origin tên_nhánh.</li>
+    </ol>
 </body>
 </html>
